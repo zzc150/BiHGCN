@@ -1,0 +1,38 @@
+batch_size=32, blocks=2, day_len=48, dropout=0.3, epochs=150, feature=2, hidden_dim=128, input_dim=12, inter=True, intra=False, knn_neighbor=4, learning_rate=0.0005, model_file='./parameter/MPBTCN_bjgz.pkl', output_dim=12, patience=25, seed=0, train_rate=6, val_rate=2, week_len=7
+loading data...
+Blocks:2, Seed:0
+trainX: (2606, 12, 130, 2)		trainY: (2606, 12, 130, 2)
+validX:   (868, 12, 130, 2)		validY:     (868, 12, 130, 2)
+testX:  (870, 12, 130, 2)		testY:   (870, 12, 130, 2)
+nodes: 130, f_nodes: 65, s_nodes: 65
+data loaded!
+compiling model...
+trainable parameters: 3.40MB
+第一模态
+第1步的预测结果: MAE:11.9854, RMSE:18.4927,MAPE:0.1995, PCC:0.9825
+第2步的预测结果: MAE:13.0503, RMSE:20.8114,MAPE:0.2041, PCC:0.9777
+第3步的预测结果: MAE:13.7549, RMSE:22.2687,MAPE:0.2098, PCC:0.9744
+第4步的预测结果: MAE:14.3290, RMSE:23.5090,MAPE:0.2164, PCC:0.9714
+第5步的预测结果: MAE:14.8503, RMSE:24.5278,MAPE:0.2140, PCC:0.9688
+第6步的预测结果: MAE:15.3153, RMSE:25.3332,MAPE:0.2188, PCC:0.9669
+第7步的预测结果: MAE:15.6537, RMSE:25.8406,MAPE:0.2231, PCC:0.9656
+第8步的预测结果: MAE:15.9616, RMSE:26.2765,MAPE:0.2344, PCC:0.9643
+第9步的预测结果: MAE:16.3199, RMSE:26.8377,MAPE:0.2376, PCC:0.9630
+第10步的预测结果: MAE:16.5840, RMSE:27.2881,MAPE:0.2351, PCC:0.9620
+第11步的预测结果: MAE:16.9098, RMSE:27.8077,MAPE:0.2392, PCC:0.9611
+第12步的预测结果: MAE:17.2179, RMSE:28.3047,MAPE:0.2414, PCC:0.9602
+MAE:15.1610, RMSE:24.7748,MAPE:0.2228, PCC:0.9681
+第二模态
+第1步的预测结果: MAE:5.0719, RMSE:7.8680,MAPE:0.3803, PCC:0.9684
+第2步的预测结果: MAE:5.4387, RMSE:8.7072,MAPE:0.4015, PCC:0.9613
+第3步的预测结果: MAE:5.7042, RMSE:9.3662,MAPE:0.4130, PCC:0.9550
+第4步的预测结果: MAE:5.8780, RMSE:9.8086,MAPE:0.4230, PCC:0.9506
+第5步的预测结果: MAE:6.0336, RMSE:10.1694,MAPE:0.4324, PCC:0.9468
+第6步的预测结果: MAE:6.1984, RMSE:10.4761,MAPE:0.4452, PCC:0.9434
+第7步的预测结果: MAE:6.3454, RMSE:10.7476,MAPE:0.4477, PCC:0.9402
+第8步的预测结果: MAE:6.5005, RMSE:10.9838,MAPE:0.4490, PCC:0.9373
+第9步的预测结果: MAE:6.5880, RMSE:11.0983,MAPE:0.4494, PCC:0.9362
+第10步的预测结果: MAE:6.6865, RMSE:11.2316,MAPE:0.4515, PCC:0.9352
+第11步的预测结果: MAE:6.6570, RMSE:11.1006,MAPE:0.4492, PCC:0.9376
+第12步的预测结果: MAE:6.5621, RMSE:10.8509,MAPE:0.4411, PCC:0.9409
+MAE:6.1387, RMSE:10.2007,MAPE:0.4319, PCC:0.9461

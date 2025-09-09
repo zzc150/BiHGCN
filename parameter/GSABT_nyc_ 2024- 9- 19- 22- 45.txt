@@ -1,0 +1,138 @@
+batch_size=64, blocks=2, day_len=24, dropout=0.2, epochs=100, feature=2, hidden_dim=128, input_dim=12, inter=True, intra=False, learning_rate=0.001, model_file='./parameter/MPBTCN_bjgz.pkl', output_dim=12, patience=25, seed=0, structured_neighbor=25, train_rate=8, val_rate=2, week_len=7
+loading data...
+Blocks:2, Seed:0
+trainX: (1456, 12, 154, 2)		trainY: (1456, 12, 154, 2)
+validX:   (364, 12, 154, 2)		validY:     (364, 12, 154, 2)
+testX:  (364, 12, 154, 2)		testY:   (364, 12, 154, 2)
+nodes: 154, f_nodes: 77, s_nodes: 77
+data loaded!
+compiling model...
+trainable parameters: 2.82MB
+Epoch:1, train_loss:0.29594, valid_loss:0.18605,本轮耗时：51.81s, best_epoch:1, best_loss:0.18605
+Epoch:2, train_loss:0.22658, valid_loss:0.16668,本轮耗时：5.65s, best_epoch:2, best_loss:0.16668
+Epoch:3, train_loss:0.20293, valid_loss:0.14978,本轮耗时：5.97s, best_epoch:3, best_loss:0.14978
+Epoch:4, train_loss:0.18350, valid_loss:0.13464,本轮耗时：5.87s, best_epoch:4, best_loss:0.13464
+Epoch:5, train_loss:0.16521, valid_loss:0.12679,本轮耗时：6.05s, best_epoch:5, best_loss:0.12679
+Epoch:6, train_loss:0.15726, valid_loss:0.11653,本轮耗时：5.75s, best_epoch:6, best_loss:0.11653
+Epoch:7, train_loss:0.14825, valid_loss:0.11260,本轮耗时：5.80s, best_epoch:7, best_loss:0.11260
+Epoch:8, train_loss:0.14315, valid_loss:0.10774,本轮耗时：5.98s, best_epoch:8, best_loss:0.10774
+Epoch:9, train_loss:0.13786, valid_loss:0.10569,本轮耗时：4.86s, best_epoch:9, best_loss:0.10569
+Epoch:10, train_loss:0.13409, valid_loss:0.10502,本轮耗时：2.37s, best_epoch:10, best_loss:0.10502
+Epoch:11, train_loss:0.13067, valid_loss:0.10725,本轮耗时：3.50s, best_epoch:10, best_loss:0.10502
+Epoch:12, train_loss:0.13031, valid_loss:0.09899,本轮耗时：2.38s, best_epoch:12, best_loss:0.09899
+Epoch:13, train_loss:0.12565, valid_loss:0.09732,本轮耗时：2.30s, best_epoch:13, best_loss:0.09732
+Epoch:14, train_loss:0.12376, valid_loss:0.09657,本轮耗时：2.29s, best_epoch:14, best_loss:0.09657
+Epoch:15, train_loss:0.12245, valid_loss:0.09467,本轮耗时：2.29s, best_epoch:15, best_loss:0.09467
+Epoch:16, train_loss:0.12057, valid_loss:0.09403,本轮耗时：2.30s, best_epoch:16, best_loss:0.09403
+Epoch:17, train_loss:0.11933, valid_loss:0.09316,本轮耗时：2.29s, best_epoch:17, best_loss:0.09316
+Epoch:18, train_loss:0.11791, valid_loss:0.09280,本轮耗时：2.30s, best_epoch:18, best_loss:0.09280
+Epoch:19, train_loss:0.11677, valid_loss:0.09231,本轮耗时：2.30s, best_epoch:19, best_loss:0.09231
+Epoch:20, train_loss:0.11590, valid_loss:0.09143,本轮耗时：2.30s, best_epoch:20, best_loss:0.09143
+Epoch:21, train_loss:0.11461, valid_loss:0.09080,本轮耗时：2.29s, best_epoch:21, best_loss:0.09080
+Epoch:22, train_loss:0.11313, valid_loss:0.08934,本轮耗时：2.29s, best_epoch:22, best_loss:0.08934
+Epoch:23, train_loss:0.11180, valid_loss:0.08962,本轮耗时：2.30s, best_epoch:22, best_loss:0.08934
+Epoch:24, train_loss:0.11103, valid_loss:0.08802,本轮耗时：2.30s, best_epoch:24, best_loss:0.08802
+Epoch:25, train_loss:0.10977, valid_loss:0.08718,本轮耗时：2.30s, best_epoch:25, best_loss:0.08718
+Epoch:26, train_loss:0.10877, valid_loss:0.08788,本轮耗时：2.29s, best_epoch:25, best_loss:0.08718
+Epoch:27, train_loss:0.10801, valid_loss:0.08794,本轮耗时：2.29s, best_epoch:25, best_loss:0.08718
+Epoch:28, train_loss:0.10792, valid_loss:0.08573,本轮耗时：2.29s, best_epoch:28, best_loss:0.08573
+Epoch:29, train_loss:0.10603, valid_loss:0.08509,本轮耗时：2.29s, best_epoch:29, best_loss:0.08509
+Epoch:30, train_loss:0.10487, valid_loss:0.08492,本轮耗时：2.29s, best_epoch:30, best_loss:0.08492
+Epoch:31, train_loss:0.10438, valid_loss:0.08489,本轮耗时：2.29s, best_epoch:31, best_loss:0.08489
+Epoch:32, train_loss:0.10360, valid_loss:0.08425,本轮耗时：2.30s, best_epoch:32, best_loss:0.08425
+Epoch:33, train_loss:0.10223, valid_loss:0.08399,本轮耗时：2.29s, best_epoch:33, best_loss:0.08399
+Epoch:34, train_loss:0.10166, valid_loss:0.08397,本轮耗时：2.29s, best_epoch:34, best_loss:0.08397
+Epoch:35, train_loss:0.10118, valid_loss:0.08206,本轮耗时：2.29s, best_epoch:35, best_loss:0.08206
+Epoch:36, train_loss:0.09993, valid_loss:0.08286,本轮耗时：2.30s, best_epoch:35, best_loss:0.08206
+Epoch:37, train_loss:0.09941, valid_loss:0.08152,本轮耗时：2.29s, best_epoch:37, best_loss:0.08152
+Epoch:38, train_loss:0.09876, valid_loss:0.08262,本轮耗时：2.30s, best_epoch:37, best_loss:0.08152
+Epoch:39, train_loss:0.09824, valid_loss:0.08050,本轮耗时：2.29s, best_epoch:39, best_loss:0.08050
+Epoch:40, train_loss:0.09708, valid_loss:0.07913,本轮耗时：2.29s, best_epoch:40, best_loss:0.07913
+Epoch:41, train_loss:0.09642, valid_loss:0.07907,本轮耗时：2.30s, best_epoch:41, best_loss:0.07907
+Epoch:42, train_loss:0.09571, valid_loss:0.07994,本轮耗时：2.29s, best_epoch:41, best_loss:0.07907
+Epoch:43, train_loss:0.09503, valid_loss:0.07877,本轮耗时：2.31s, best_epoch:43, best_loss:0.07877
+Epoch:44, train_loss:0.09464, valid_loss:0.07872,本轮耗时：2.31s, best_epoch:44, best_loss:0.07872
+Epoch:45, train_loss:0.09439, valid_loss:0.07817,本轮耗时：2.30s, best_epoch:45, best_loss:0.07817
+Epoch:46, train_loss:0.09370, valid_loss:0.07738,本轮耗时：2.29s, best_epoch:46, best_loss:0.07738
+Epoch:47, train_loss:0.09284, valid_loss:0.07806,本轮耗时：2.30s, best_epoch:46, best_loss:0.07738
+Epoch:48, train_loss:0.09252, valid_loss:0.07652,本轮耗时：2.29s, best_epoch:48, best_loss:0.07652
+Epoch:49, train_loss:0.09144, valid_loss:0.07496,本轮耗时：2.30s, best_epoch:49, best_loss:0.07496
+Epoch:50, train_loss:0.09103, valid_loss:0.07454,本轮耗时：2.29s, best_epoch:50, best_loss:0.07454
+Epoch:51, train_loss:0.09074, valid_loss:0.07364,本轮耗时：2.29s, best_epoch:51, best_loss:0.07364
+Epoch:52, train_loss:0.09025, valid_loss:0.07298,本轮耗时：2.30s, best_epoch:52, best_loss:0.07298
+Epoch:53, train_loss:0.08911, valid_loss:0.07357,本轮耗时：2.29s, best_epoch:52, best_loss:0.07298
+Epoch:54, train_loss:0.08929, valid_loss:0.07376,本轮耗时：2.30s, best_epoch:52, best_loss:0.07298
+Epoch:55, train_loss:0.08814, valid_loss:0.07237,本轮耗时：2.29s, best_epoch:55, best_loss:0.07237
+Epoch:56, train_loss:0.08782, valid_loss:0.07211,本轮耗时：2.31s, best_epoch:56, best_loss:0.07211
+Epoch:57, train_loss:0.08753, valid_loss:0.07183,本轮耗时：2.30s, best_epoch:57, best_loss:0.07183
+Epoch:58, train_loss:0.08662, valid_loss:0.07102,本轮耗时：2.30s, best_epoch:58, best_loss:0.07102
+Epoch:59, train_loss:0.08630, valid_loss:0.07162,本轮耗时：2.30s, best_epoch:58, best_loss:0.07102
+Epoch:60, train_loss:0.08573, valid_loss:0.07167,本轮耗时：2.30s, best_epoch:58, best_loss:0.07102
+Epoch:61, train_loss:0.08480, valid_loss:0.07061,本轮耗时：2.31s, best_epoch:61, best_loss:0.07061
+Epoch:62, train_loss:0.08514, valid_loss:0.07171,本轮耗时：2.32s, best_epoch:61, best_loss:0.07061
+Epoch:63, train_loss:0.08468, valid_loss:0.07061,本轮耗时：2.30s, best_epoch:61, best_loss:0.07061
+Epoch:64, train_loss:0.08358, valid_loss:0.07099,本轮耗时：2.29s, best_epoch:61, best_loss:0.07061
+Epoch:65, train_loss:0.08330, valid_loss:0.07010,本轮耗时：2.30s, best_epoch:65, best_loss:0.07010
+Epoch:66, train_loss:0.08280, valid_loss:0.07059,本轮耗时：2.29s, best_epoch:65, best_loss:0.07010
+Epoch:67, train_loss:0.08297, valid_loss:0.07001,本轮耗时：2.30s, best_epoch:67, best_loss:0.07001
+Epoch:68, train_loss:0.08226, valid_loss:0.07021,本轮耗时：2.30s, best_epoch:67, best_loss:0.07001
+Epoch:69, train_loss:0.08147, valid_loss:0.06973,本轮耗时：2.29s, best_epoch:69, best_loss:0.06973
+Epoch:70, train_loss:0.08105, valid_loss:0.06983,本轮耗时：2.29s, best_epoch:69, best_loss:0.06973
+Epoch:71, train_loss:0.08131, valid_loss:0.07221,本轮耗时：2.30s, best_epoch:69, best_loss:0.06973
+Epoch:72, train_loss:0.08155, valid_loss:0.06980,本轮耗时：2.31s, best_epoch:69, best_loss:0.06973
+Epoch:73, train_loss:0.08080, valid_loss:0.07126,本轮耗时：2.29s, best_epoch:69, best_loss:0.06973
+Epoch:74, train_loss:0.08040, valid_loss:0.06970,本轮耗时：2.33s, best_epoch:74, best_loss:0.06970
+Epoch:75, train_loss:0.07952, valid_loss:0.06935,本轮耗时：2.33s, best_epoch:75, best_loss:0.06935
+Epoch:76, train_loss:0.07991, valid_loss:0.06988,本轮耗时：2.29s, best_epoch:75, best_loss:0.06935
+Epoch:77, train_loss:0.07988, valid_loss:0.06927,本轮耗时：2.30s, best_epoch:77, best_loss:0.06927
+Epoch:78, train_loss:0.07858, valid_loss:0.06984,本轮耗时：2.29s, best_epoch:77, best_loss:0.06927
+Epoch:79, train_loss:0.07810, valid_loss:0.06810,本轮耗时：2.30s, best_epoch:79, best_loss:0.06810
+Epoch:80, train_loss:0.07784, valid_loss:0.07007,本轮耗时：2.29s, best_epoch:79, best_loss:0.06810
+Epoch:81, train_loss:0.07824, valid_loss:0.07050,本轮耗时：2.29s, best_epoch:79, best_loss:0.06810
+Epoch:82, train_loss:0.07749, valid_loss:0.07009,本轮耗时：2.29s, best_epoch:79, best_loss:0.06810
+Epoch:83, train_loss:0.07713, valid_loss:0.06977,本轮耗时：2.29s, best_epoch:79, best_loss:0.06810
+Epoch:84, train_loss:0.07631, valid_loss:0.06792,本轮耗时：2.29s, best_epoch:84, best_loss:0.06792
+Epoch:85, train_loss:0.07608, valid_loss:0.06769,本轮耗时：2.30s, best_epoch:85, best_loss:0.06769
+Epoch:86, train_loss:0.07655, valid_loss:0.07430,本轮耗时：2.31s, best_epoch:85, best_loss:0.06769
+Epoch:87, train_loss:0.07733, valid_loss:0.06824,本轮耗时：2.29s, best_epoch:85, best_loss:0.06769
+Epoch:88, train_loss:0.07595, valid_loss:0.06752,本轮耗时：2.30s, best_epoch:88, best_loss:0.06752
+Epoch:89, train_loss:0.07497, valid_loss:0.06863,本轮耗时：2.29s, best_epoch:88, best_loss:0.06752
+Epoch:90, train_loss:0.07490, valid_loss:0.06746,本轮耗时：2.31s, best_epoch:90, best_loss:0.06746
+Epoch:91, train_loss:0.07513, valid_loss:0.06965,本轮耗时：2.29s, best_epoch:90, best_loss:0.06746
+Epoch:92, train_loss:0.07505, valid_loss:0.06614,本轮耗时：2.30s, best_epoch:92, best_loss:0.06614
+Epoch:93, train_loss:0.07505, valid_loss:0.07063,本轮耗时：2.30s, best_epoch:92, best_loss:0.06614
+Epoch:94, train_loss:0.07497, valid_loss:0.06883,本轮耗时：2.29s, best_epoch:92, best_loss:0.06614
+Epoch:95, train_loss:0.07480, valid_loss:0.06725,本轮耗时：2.30s, best_epoch:92, best_loss:0.06614
+Epoch:96, train_loss:0.07462, valid_loss:0.07150,本轮耗时：2.30s, best_epoch:92, best_loss:0.06614
+Epoch:97, train_loss:0.07427, valid_loss:0.07110,本轮耗时：2.30s, best_epoch:92, best_loss:0.06614
+Epoch:98, train_loss:0.07392, valid_loss:0.06781,本轮耗时：2.30s, best_epoch:92, best_loss:0.06614
+Epoch:99, train_loss:0.07376, valid_loss:0.06751,本轮耗时：2.30s, best_epoch:92, best_loss:0.06614
+Epoch:100, train_loss:0.07431, valid_loss:0.06895,本轮耗时：2.29s, best_epoch:92, best_loss:0.06614
+第一模态
+第1步的预测结果: MAE:1.5625, RMSE:4.1393,MAPE:346411.2609, PCC:0.9812
+第2步的预测结果: MAE:1.6887, RMSE:5.0287,MAPE:309664.6212, PCC:0.9721
+第3步的预测结果: MAE:1.7835, RMSE:5.6184,MAPE:293968.1476, PCC:0.9656
+第4步的预测结果: MAE:1.8466, RMSE:6.0031,MAPE:308644.7565, PCC:0.9604
+第5步的预测结果: MAE:1.9016, RMSE:6.2563,MAPE:295829.0240, PCC:0.9567
+第6步的预测结果: MAE:1.9226, RMSE:6.3167,MAPE:282942.6452, PCC:0.9561
+第7步的预测结果: MAE:1.8964, RMSE:6.2858,MAPE:272619.2280, PCC:0.9562
+第8步的预测结果: MAE:1.8971, RMSE:6.3724,MAPE:262429.6761, PCC:0.9550
+第9步的预测结果: MAE:1.8981, RMSE:6.4132,MAPE:268859.4840, PCC:0.9546
+第10步的预测结果: MAE:1.9264, RMSE:6.5497,MAPE:279212.0289, PCC:0.9528
+第11步的预测结果: MAE:1.9178, RMSE:6.4160,MAPE:272922.9697, PCC:0.9543
+第12步的预测结果: MAE:1.9089, RMSE:6.1775,MAPE:260231.1640, PCC:0.9576
+MAE:1.8458, RMSE:5.9648,MAPE:287811.2505, PCC:0.9602
+第二模态
+第1步的预测结果: MAE:1.1105, RMSE:3.3354,MAPE:288233.9851, PCC:0.9528
+第2步的预测结果: MAE:1.2217, RMSE:4.0605,MAPE:244487.5743, PCC:0.9359
+第3步的预测结果: MAE:1.3499, RMSE:4.7041,MAPE:227579.1037, PCC:0.9211
+第4步的预测结果: MAE:1.3751, RMSE:4.9103,MAPE:224809.5944, PCC:0.9131
+第5步的预测结果: MAE:1.4138, RMSE:5.1456,MAPE:258603.3201, PCC:0.9091
+第6步的预测结果: MAE:1.4783, RMSE:5.5252,MAPE:267380.9845, PCC:0.8979
+第7步的预测结果: MAE:1.4749, RMSE:5.4727,MAPE:289481.4818, PCC:0.8911
+第8步的预测结果: MAE:1.4253, RMSE:5.2950,MAPE:261709.4026, PCC:0.8945
+第9步的预测结果: MAE:1.4625, RMSE:5.3614,MAPE:247713.6293, PCC:0.8910
+第10步的预测结果: MAE:1.4757, RMSE:5.3018,MAPE:279836.9329, PCC:0.8947
+第11步的预测结果: MAE:1.5120, RMSE:5.5653,MAPE:280817.8147, PCC:0.8851
+第12步的预测结果: MAE:1.5861, RMSE:5.7864,MAPE:302530.6261, PCC:0.8704
+MAE:1.4071, RMSE:5.0386,MAPE:264432.0375, PCC:0.9047

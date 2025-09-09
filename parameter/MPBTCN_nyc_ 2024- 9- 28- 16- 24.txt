@@ -1,0 +1,10 @@
+batch_size=64, blocks=2, day_len=48, dropout=0.3, epochs=100, feature=2, hidden_dim=64, input_dim=12, inter=True, intra=False, learning_rate=0.001, model_file='./parameter/nyctaxi.pkl', output_dim=12, patience=25, seed=0, structured_neighbor=25, train_rate=8, val_rate=2, week_len=7
+loading data...
+Blocks:2, Seed:0
+trainX: (2896, 12, 151, 2)		trainY: (2896, 12, 151, 2)
+validX:   (724, 12, 151, 2)		validY:     (724, 12, 151, 2)
+testX:  (724, 12, 151, 2)		testY:   (724, 12, 151, 2)
+nodes: 151
+data loaded!
+compiling model...
+trainable parameters: 1.72MB
